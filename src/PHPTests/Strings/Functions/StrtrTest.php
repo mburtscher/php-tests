@@ -1,6 +1,8 @@
 <?php
 
-class StrtrTest extends PHPUnit_Framework_TestCase
+namespace PHPTests\Strings\Functions;
+
+final class StrtrTest extends \PHPUnit_Framework_TestCase
 {
     public function testStringParameters()
     {

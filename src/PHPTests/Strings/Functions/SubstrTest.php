@@ -1,6 +1,8 @@
 <?php
 
-class SubstrTest extends PHPUnit_Framework_TestCase
+namespace PHPTests\Strings\Functions;
+
+final class SubstrTest extends \PHPUnit_Framework_TestCase
 {
     public function testOffsetOnly()
     {

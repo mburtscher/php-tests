@@ -1,6 +1,8 @@
 <?php
 
-class StrtokTest extends PHPUnit_Framework_TestCase
+namespace PHPTests\Strings\Functions;
+
+final class StrtokTest extends \PHPUnit_Framework_TestCase
 {
     public function testDefaultBahavior()
     {
