@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Default">
+            <directory>.</directory>
+            <exclude>vendor</exclude>
+        </testsuite>
+    </testsuites>
+</phpunit>
